@@ -1,0 +1,97 @@
+<style>
+#cards ul {
+display: grid;
+list-style: none;
+padding: 10px;
+grid-gap: 10px;
+grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+#cards li {
+border-radius: 5px;
+background-color: #f5f5f5;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+
+#cards .card-image {
+width: 100%;
+height: 50%;
+object-fit: cover;
+}
+
+#cards li a {
+font-weight: 200;
+margin: 10px;
+}
+
+#cards p {
+padding: 10px;
+}
+
+#s-lg-widget-1677264850496 > ul > li > a {
+    display: block;
+    background: #eee;
+    border: 1px solid #ddd;
+    position: relative;
+    top: 145px;
+    z-index: 2;
+    padding: 5px 10px;
+    font-size: 1.4em;
+    border-radius: 5px;
+}
+
+#s-lg-widget-1677264850496 > ul > li > img {
+    display: block;
+    background:red;
+    position: relative;
+    margin-top: -125px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+}
+
+
+#s-lg-widget-1677264850496 > ul > li {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+}
+
+</style>
+
+
+
+<!-- box_widget_includes_js.twig -->
+<script type="text/javascript" src="//lgapi-us.libapps.com/web/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="//lgapi-us.libapps.com/web/js2.19.7/springshare.public.min.js"></script>
+<script type="text/javascript" src="//lgapi-us.libapps.com/web/js2.19.7/springshare.common.min.js"></script>
+<script type="text/javascript" src="//lgapi-us.libapps.com/web/js2.19.7/common/springspace_sui_helptip.js"></script>
+<link rel="stylesheet" href="//lgapi-us.libapps.com/web/jquery/css/jquery-ui.min.css?2695"/>
+<link rel="stylesheet" href="//lgapi-us.libapps.com/web/bootstrap/3.4.1/css/bootstrap.min.css"/>
+<link rel="stylesheet" href="//lgapi-us.libapps.com/web/css2.19.7/springshare.public.min.css"/>
+<link rel="stylesheet" href="//lgapi-us.libapps.com/web/css2.19.7/springshare.common.min.css"/>
+<link href="//lgapi-us.libapps.com/web/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<link href="//lgapi-us.libapps.com/web/css2.19.7/common/springspace_sui_helptip.css" rel="stylesheet">
+
+<script>
+var springStats = springStats || {};
+springStats.saConfig = springStats.saConfig || {
+    site_id: 4861,
+    tracking_parameters: {"_st_site_id":4861},
+    tracking_server_host: "libguides-proc.springyaws.com"
+};
+</script>
+<script async  src="//lgapi-us.libapps.com/web/js/sa.min.js?3116" ></script>
+
+<script>
+    springSpace.Common = springSpace.Common || {};
+    springSpace.Common.constant = {PROCESSING: {ACTION_DISPLAY_POLL: 159 }};
+    springSpace.Common.baseURL = "//lgapi-us.libapps.com'/";
+    springSpace.Common.apiLoad = true;
+</script>
+<!-- !box_widget_includes_js.twig -->
+<script>springshare_widget_config_1677264850496 = { path: 'blogs', link_text: 'Blogs' };</script>
+<div id="cards">
+<div id="s-lg-widget-1677264850496"></div>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://lgapi-us.libapps.com/widgets.php?site_id=4861&widget_type=12&widget_embed_type=1&output_format=1&widget_title=Blog+Posts&widget_height=250&widget_width=100%25&widget_link_color=2954d1&window_target=2&display_teaser=1&display_post=0&display_images=0&num_results=5&enable_more_results=1&blog_id=0&display_post_date=0&include_jquery=0&config_id=1677264850496";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","s-lg-widget-script-1677264850496");</script>
+</div>
